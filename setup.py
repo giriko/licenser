@@ -14,7 +14,7 @@ Installation:
 
     $ pip install licenser
 
-Usage: 
+Usage:
 
     $ cd /path/to/project
     $ licener -l LICENSE -n NAME -e EMAIL -p PROJECT
@@ -22,9 +22,9 @@ Usage:
 Optional arguments:
 
     --no removes file extension
-    
+
 Copyright (c) 2014 Ty-Lucas Kelley <tylucaskelley@gmail.com>
-    
+
 """
 
 from distutils.core import setup
