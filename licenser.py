@@ -4,6 +4,13 @@ from argparse import ArgumentParser as parser
 from datetime import date
 import os.path
 
+def _add_header(file1, license):
+    with open(file1) as file1:
+        with open("file1") as f2: # need to output with the same name...
+            f2.write() # Logic Gobledygook, to determine what comment/ license to use
+            for line in file1:
+                f2.write(line)
+
 def add_license():
     p = parser(description='quickly add an open-source license to your project')
 
